@@ -12,8 +12,8 @@ function copyGoogleSheetsTemplate() {
   var companyEmail = '@iconstudiobr.com';
 
   var employeeList = [
-    { name: 'Toren Spears', payRate: 25 },
-    { name: 'Will Campbell', payRate: 20 }
+    { name: 'employee1', payRate: 35 },
+    { name: 'employee2', payRate: 40 }
   ];
  
   // Sheet IDs are found in the url after "/d/", see images below
