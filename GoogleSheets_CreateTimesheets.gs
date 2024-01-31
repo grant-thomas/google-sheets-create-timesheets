@@ -9,7 +9,7 @@ function copyGoogleSheetsTemplate() {
   // THEN ADDS EACH EMPLOYEE'S PAYRATE TO THE FORMULA IN THE CELL THAT CALCULATES THE TOTAL PAY FOR THE WEEK,
   // THEN THE TIMESHEET IS SHARED WITH EACH EMPLOYEE AND THEY ARE GIVEN EDIT PRIVILEDGES AND NOTIFIED VIA EMAIL.
 
-  var companyEmail = '@iconstudiobr.com';
+  var companyEmail = '@companyname.com';
 
   var employeeList = [
     { name: 'employee1', payRate: 35 },
