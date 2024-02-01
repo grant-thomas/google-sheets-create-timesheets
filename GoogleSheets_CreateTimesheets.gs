@@ -1,4 +1,4 @@
-function copyGoogleSheetsTemplate() {
+function createTimesheets() {
   // THIS SCRIPT MAKES A COPY OF A BLANK TIMESHEET TEMPLATE FOR EACH EMPLOYEE IN THE EMPLOYEE NAMES LIST
   // RUNS EVERY MONDAY AT 1AM
 
@@ -18,7 +18,7 @@ function copyGoogleSheetsTemplate() {
  
   // Sheet IDs are found in the url after "/d/", see images below
   // Hard coded ID from timesheet template file in Google Drive /root
-  var templateID = '1t8XJ6NjYqAzgZxHfodwh66yBz-pZsSCrx0znb1ArjgU';
+  var templateID = 'abc123';
 
   var templateSheet = SpreadsheetApp.openById(templateID);
 
